@@ -1,0 +1,13 @@
+current directory: /home/ptiweb/instagram/vendor/bundle/gems/json-1.8.6/ext/json
+/usr/local/rvm/rubies/ruby-2.4.4/bin/ruby -r ./siteconf20191101-24773-1bjfp68.rb extconf.rb
+creating Makefile
+
+current directory: /home/ptiweb/instagram/vendor/bundle/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /home/ptiweb/instagram/vendor/bundle/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /home/ptiweb/instagram/vendor/bundle/gems/json-1.8.6/ext/json
+make "DESTDIR=" install

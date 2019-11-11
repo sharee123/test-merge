@@ -1,0 +1,16 @@
+current directory: /home/ptiweb/instagram/vendor/bundle/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+/usr/local/rvm/rubies/ruby-2.4.4/bin/ruby -r ./siteconf20191101-24773-lfa1fc.rb extconf.rb
+
+current directory: /home/ptiweb/instagram/vendor/bundle/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: /home/ptiweb/instagram/vendor/bundle/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+current directory: /home/ptiweb/instagram/vendor/bundle/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR=" install
+echo "Nada."
+Nada.

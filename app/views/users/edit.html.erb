@@ -1,0 +1,41 @@
+<%= form_for(@user,url: user_path) do |f| %>
+	<div class="form-group">
+	  <%= f.label :email %>
+	  <%= f.text_field :email, class: "form-control" %>
+	</div>
+	<div class="form-group">
+		<%= f.label :name %>
+		<%= f.password_field :name, class: "form-control"%>
+	</div>
+	 <div class="form-group">
+	    <%= f.label :gender %><br />
+	    <%= f.label :Male, "male", :value => "male"  %>
+	    <%= f.radio_button :gender, :male %>
+	    <%= f.label :Female, "female", :value => "female" %>
+	    <%= f.radio_button :gender, :female, :checked => true %>
+	 </div>
+	<div class="form-group">
+		<%= f.label :website %>
+		<%= f.text_field :website, class: "form-control"%>
+	</div>
+	<div class="form-group">
+	   <%= f.label :phone %>
+	   <%= f.number_field :phone, class: "form-control"%> 	
+	</div>
+	<div class="form-group">
+	   	<%= f.label :Biography %>
+	   	<%= f.text_area :bio,class: "form-control"%>
+	</div>
+	<div class="form-group">
+		<%= f.label :profile_pic %>
+		<%= f.file_field :users_image, class: "form-control"%>
+	</div>
+
+	<div class="form-group">
+		<%= f.submit "Create User"%>
+	</div>
+<% end %>
+
+
+
+ 
